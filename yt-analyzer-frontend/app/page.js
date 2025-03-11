@@ -26,7 +26,7 @@ export default function Home() {
     setError("");
     try {
       const response = await axios.get(
-        `https://youtubeanalyzer.vercel.app?url=${encodeURIComponent(url)}`
+        `https://youtubeanalyzer.vercel.app/analyze?url=${encodeURIComponent(url)}`
       );
       setData(response.data);
     } catch (err) {
