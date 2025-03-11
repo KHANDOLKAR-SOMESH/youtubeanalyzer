@@ -3,7 +3,13 @@ const cors = require("cors");
 const { exec } = require("child_process");
 
 const app = express();
-app.use(cors());
+
+
+app.use(cors({
+  origin: 'https://youtubeanalyzerpro.vercel.app', // Allow only your frontend
+  methods: 'GET,POST'
+}));
+
 app.use(express.json());
 
 app.get('/', (req, res) => {
