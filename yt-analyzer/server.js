@@ -6,9 +6,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req,res)=>{
-    res.send("hello"); 
-})
+app.get('/', (req, res) => {
+  res.send('Hello from Express on Vercel!');
+});
 app.get("/analyze", async (req, res) => {
     const videoUrl = req.query.url;
     if (!videoUrl) {
