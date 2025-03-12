@@ -13,7 +13,7 @@ The **YouTube Analyzer Tool** is a web application that provides in-depth insigh
   - Dark theme with a thumbnail as the cover image.
   - Two-column format for desktop, single-column for mobile.
   - Proper spacing and structured layout.
-- 🔗 **Downloadable Reports**: Export insights in structured formats.
+
 
 ## 🛠️ Tech Stack
 - **Frontend**: Next.js, Tailwind CSS, Chart.js
@@ -74,6 +74,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 This project is licensed under the **MIT License**.
 
 ## 📬 Contact
-- **GitHub**: [Your Profile](https://github.com/khandolkar-somesh)
+- **GitHub**: [somesh khandolkar](https://github.com/khandolkar-somesh)
 
 - **Email**: someshkhandolkar2003@gamil.com
